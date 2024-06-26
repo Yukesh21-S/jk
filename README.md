@@ -4,7 +4,6 @@
 ## **Table of Contents**
 - [Introduction](#_introduction)
 - [Features](#_features)
-- [Installation](#_installation)
 - [Usage](#_usage)
 - [Configuration](#_configuration)
 ## <a name="_introduction"></a>**Introduction**
@@ -16,65 +15,6 @@ This project is a secure authentication application designed to manage user auth
 - Session Management
 - Secure API Endpoints
 
-<a name="_installation"></a><a name="_configuration"></a>**Installation**
-
-Follow these steps to install and set up the project locally:
-
-1. Clone the repository:
-
-   bash
-
-   Copy code
-
-   git clone https://github.com/yourusername/yourproject.git
-
-1. Navigate to the project directory:
-
-   bash
-
-   Copy code
-
-   cd yourproject
-
-1. Install dependencies:
-
-   bash
-
-   Copy code
-
-   mvn install
-
-1. Build the project:
-
-   bash
-
-   Copy code
-
-   mvn package
-
-1. Run the application:
-
-   bash
-
-   Copy code
-
-   java -jar target/Auth-0.0.1-SNAPSHOT.jar
-
-**Usage**
-
-To start the application, use the following command:
-
-bash
-
-Copy code
-
-java -jar target/Auth-0.0.1-SNAPSHOT.jar
-
-Access the application by navigating to http://localhost:8080 in your web browser.
-
-**Endpoints**
-
-- / : Home endpoint, returns a welcome message.
 ## **Configuration**
 The application uses a MySQL database. Update the application.properties file with your database configuration:
 
